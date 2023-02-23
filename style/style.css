@@ -1,24 +1,29 @@
-body{
+body {
   margin: 0;
 }
+* {
+  text-decoration: none;
+}
+.nav {
+  float: right;
+}
 
-.navbar{
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: cyan;
-  position: fixed;
+  background-color: #333;
+  position: block;
   top: 0;
   width: 100%;
 }
 
-
-.navitem{
+.navitem {
   float: left;
 }
 
-.navlinker{
+.navlinker {
   display: block;
   color: white;
   text-align: center;
@@ -26,14 +31,73 @@ body{
   text-decoration: none;
 }
 
-.navlinker:hover{
+.navlinker:hover {
   color: white;
 }
 
-.active{
-  background-color: green;
+.active {
+  background-color: #46d446;
 }
 
-.navitem .navlinker{
-   display: block;
+.navitem .navlinker {
+  display: block;
 }
+
+.hero {
+  width: 100%;
+  background-image: url(/assets/photo/online-shopping-on-mobile-application-2916089-transformed.jpg);
+  background-size: cover;
+}
+
+.herotext {
+  margin-left: 50px;
+  font-size: 70px;
+  color: white;
+  height: 1060px;
+  display: table;
+  width: 600px;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.herosubs {
+  font-size: 20px;
+  display: block;
+}
+
+/* .learnmore{
+  background-color: #ff619c;
+  margin: 0;
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+} */
+
+.learnmore {
+	box-shadow: 0px 2px 36px 7px #c21b1b;
+	background:linear-gradient(to bottom, #afc745 5%, #7bbd2a 100%);
+	background-color:#afc745;
+	border-radius:9px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:2px 5px 13px #2fb81a;
+}
+.learnmore:hover {
+	background:linear-gradient(to bottom, #7bbd2a 5%, #afc745 100%);
+	background-color:#7bbd2a;
+}
+.learnmore:active {
+	position:relative;
+	top:1px;
+}
+
+        
